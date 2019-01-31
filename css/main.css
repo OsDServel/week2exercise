@@ -1,0 +1,84 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+ul {
+	margin-top:5px;
+	margin-bottom: 5px;
+	padding: 5px 0px 5px 0px;
+}
+h1 {
+	font-size: 3em;
+	margin:0;
+	padding:25px;
+	color: crimson;
+}
+nav {
+	background-color: crimson;
+	padding: 45px;
+	text-align: center;
+}
+li {
+	display: inline;
+	background-color: black;
+	padding: 10px;
+	margin: 0px 25px 0px 25px;
+}
+a {
+	color:red;
+	text-decoration: line-through;
+}
+section {
+	background-color: black;
+	margin-top: -30px;
+	text-align: center;
+}
+div.box {
+	display: inline-block;
+	width: 32%;
+}
+img {
+	width:100%;
+/** changing the image from 150px as i had before in order to make the images visible, as i found it annoying, when i changed it to 100% after i had writtne the code for the inline boxes it made the picture go back to their original width vs height, then when i just shurnk them to fit in the area of 150px, whilst still staying inside of the inline-block. so it gave back the 100% of the picture**/
+}
+div.box p {
+	background-color: black;
+	border: 3px solid green;
+	padding: 5px;
+	font-size: 20px;
+}
+p::first-letter {
+	color: green;
+	font-size: 40px;
+}
+footer {
+	background-color: crimson;
+	padding: 25px;
+	text-align: center;
+}
+footer li {
+	background-color: green;
+	display: inline;
+	margin: 0px 10px 0px 10px;
+	padding: 10px;
+}
+footer li a {
+	color: black;
+	text-shadow: -1px 1px;
+	text-decoration: line-through;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
